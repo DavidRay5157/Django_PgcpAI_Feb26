@@ -10,4 +10,18 @@ def index(request):
     des1.desc = "MumbaiKar"
     des1.reviews = "beautiful place"
 
-    return render(request, 'index.html',{'des1':des1})
+    des2 = Destination()
+    des2.name = "Kerela"
+    des2.days = "10 days"
+    des2.desc = "Gods own country"
+    des2.reviews = "scenic place"
+
+    des3 = Destination()
+    des3.name = "C-DAC"
+    des3.days = "6 Months"
+    des3.desc = "AI"
+    des3.reviews = "Need Placement"
+
+    dest = [des1, des2, des3]
+
+    return render(request, 'index.html',{'dest':dest})
