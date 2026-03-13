@@ -8,4 +8,7 @@ def home(request):
     return render(request, 'home.html',{'name' : 'mihir'})
 
 def add(request):
-    return render(request, "result.html", {'result' : 2})
+    val1 = int(request.POST['num1'])
+    val2 = int(request.POST['num2'])
+    res = val1 + val2
+    return render(request, "result.html", {'result' : res})
