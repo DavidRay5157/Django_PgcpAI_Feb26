@@ -14,6 +14,11 @@ register your paths of app in main app urls.
 
 add your app 'calc' in settings file -> installed apps = 'calc',
 
+Create templates dir in root dir and create home.html
+
+register templates in settings=>
+'DIRS': [BASE_DIR / 'templates'],  
+
 enable jinja plugin for dtl
 
 for travel templete:- copy the index in template folder
