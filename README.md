@@ -6,6 +6,10 @@ create the first app -> python manage.py startapp appName
 
 create urls.py in your app for routing for the app
 
+create the basic function in views.py in calc to return :-
+def home(request):
+    return HttpResponse("hello world")
+
 register your paths of app in main app urls.
 
 add your app 'calc' in settings file -> installed apps = 'calc',
