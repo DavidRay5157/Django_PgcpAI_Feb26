@@ -8,6 +8,8 @@ create urls.py in your app for routing for the app
 
 register your paths of app in main app urls.
 
+add your app 'calc' in settings file -> installed apps = 'calc',
+
 enable jinja plugin for dtl
 
 for travel templete:- copy the index in template folder
