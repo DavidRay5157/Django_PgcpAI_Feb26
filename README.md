@@ -1,3 +1,5 @@
+create the project :- django-admin startproject demo
+
 to run first app :- python manage.py runserver
 
 create the first app -> python manage.py startapp appName
